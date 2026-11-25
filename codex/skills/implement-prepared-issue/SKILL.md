@@ -88,7 +88,7 @@ description: /goal機能と連携し、指定されたGitHub Issueに記載の�
 もし、実装用のサブエージェントを利用する場合は、以下の点に注意してください。
 
 - 実装用のサブエージェントは、使えるツールに応じて次のいずれかで起動してください
-    - Claude の Agent ツールが使える場合: `subagent_type: agent-skills:luna-developer` を指定してください。`name` は指定しないでください
+    - Claude の Agent ツールが使える場合: `subagent_type: agent-skills:luna-developer` を指定してください。`name` は指定しないでください（指定すると、環境によっては teammate として起動し、結果を返さずに待機の通知だけを送ります）
     - Codex の `spawn_agent` が使える場合: `luna_developer` エージェントを指定し、`task_name` を渡してください
     - どちらも使えない場合: サブエージェントを起動せず、あなた自身が実装してください
 
