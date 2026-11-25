@@ -14,7 +14,7 @@ privateなリポジトリから、共有可能なskillsをコピーしてきた�
 
 ## エージェント
 
-Codex用エージェント定義のみが置いてあります。
+Codex用エージェント定義は`codex/agents/`に、Claude Code用に写したものは`agents/`に置いてあります（`agents/`は Claude Code の plugin として入れたときに使われます）。
 
 ### レビュー用
 

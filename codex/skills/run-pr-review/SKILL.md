@@ -15,7 +15,7 @@ description: サブエージェントを用いて pr-review スキルを実行�
 
 使えるツールに応じて、次のいずれかで起動してください。
 
-- Claude の Agent ツールが使える場合: `subagent_type: agent-skills:lead-reviewer` を指定してください。`name` は指定しないでください（指定すると、環境によってはチームの一員として起動し、レビュー結果を返さずに待機の通知だけを送ります）
+- Claude の Agent ツールが使える場合: `subagent_type: agent-skills:lead-reviewer` を指定してください。`name` は指定しないでください（指定すると、環境によっては teammate として起動し、レビュー結果を返さずに待機の通知だけを送ります）
 - Codex の `spawn_agent` が使える場合: `lead_reviewer` エージェントを指定し、`task_name` を渡してください
 - どちらも使えない場合: サブエージェントを起動せず、あなた自身が pr-review スキルを実行してください
 
