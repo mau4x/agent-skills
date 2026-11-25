@@ -1,6 +1,8 @@
 # agent-skills
 privateなリポジトリから、共有可能なskillsをコピーしてきたリポジトリ
 
+この `plugin` 枝は、Claude Code / Codex の plugin として kci-marketplace へ載せる元である（`minagi-plugin publish`）。
+
 ## 注意
 
 ここにあるskillsは、Codex CLIを対象に調整されています。
